@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="clock-container">
+        <div id="digital-clock" class="digital-clock">00:00:00 AM</div>
+        <div id="date" class="date">Monday, January 1, 2000</div>
+        
+        <div id="analog-clock" class="analog-clock" style="display: none;">
+            <div class="hand hour-hand"></div>
+            <div class="hand minute-hand"></div>
+            <div class="hand second-hand"></div>
+        </div>
+
+        <button class="switch-button" onclick="toggleClock()">Switch to Analog</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
